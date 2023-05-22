@@ -1,29 +1,23 @@
-<div align="center">
-    <h1>🦉 night-owl.nvim 🌌</h1>
-</div>
-
-<div align="center">
-    <img src="img/dark_logo.png" height="300" alt="Logo" />
+<div alivgn="center">
+    <h1>🐺 night-wolf.nvim 🌌</h1>
 </div>
 
 The _best_ implementation of
-[Sarah Drasner's Night Owl VSCode theme](https://github.com/sdras/night-owl-vscode-theme)
+[Oxfist's Night wolf nvim theme](https://github.com/oxfist/night-wolf.nvim)
 for Neovim with Treesitter support.
-
-![Syntax highlight demo image](./img/calculator.png)
 
 ## 📦 Install In Zero Time
 
 ### Packer
 
 ```lua
-use("oxfist/night-owl.nvim")
+use("arturfil/night-wolf.nvim")
 ```
 
 ### vim-plug
 
 ```vim
-Plug 'oxfist/night-owl.nvim'
+Plug 'oxfist/night-wolf.nvim'
 ```
 
 ## 🚀 Start Using With A Single Line
@@ -32,10 +26,10 @@ Add the following line to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
 
 ```lua
-vim.cmd.colorscheme("night-owl")
+vim.cmd.colorscheme("night-wolf")
 ```
 
-To enable `night-owl` for Lualine, simply set the theme like this in your
+To enable `night-wolf` for Lualine, simply set the theme like this in your
 settings 👇:
 
 ```lua
@@ -43,7 +37,7 @@ settings 👇:
 require('lualine').setup {
   options = {
     -- ... other configs
-    theme = 'night-owl'
+    theme = 'night-wolf'
     -- ... other configs
   }
 }
@@ -51,19 +45,9 @@ require('lualine').setup {
 
 ## 🖥️ Requirements
 
-TODO
+## ✨ Why Should _I_ pick _this_ version of Night wolf?
 
-## 🔎 Comparison
-
-How does this port compare to the original VSCode theme? Check it out!
-
-| Original Night Owl for VSCode                                                | This Theme 🤩                                                              |
-| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| <img src="./img/vscode.png" alt="Screenshot of VSCode theme" width="1062" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1078" /> |
-
-## ✨ Why Should _I_ pick _this_ version of Night Owl?
-
-This implementation of Night Owl solves syntax highlight issues and
+This implementation of Night wolf solves syntax highlight issues and
 discrepancies similar ports have when contrasting against the original VSCode
 theme.
 
@@ -76,7 +60,7 @@ original VSCode theme as possible:
    See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for details.
 
 <details>
-<summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
+<summary>👇 Click to see comparison with <code>haishanh/night-wolf.vim</code></summary>
 
 With Treesitter installed you can see the overall look and feel is significantly
 different:
@@ -87,7 +71,7 @@ different:
 - Italics _incorrectly_ applied to JSDoc keywords `@param` and `@returns`.
   <br />
 
-| [haishanh/night-owl.vim](https://github.com/haishanh/night-owl.vim)             | This Theme                                                                 |
+| [haishanh/night-wolf.vim](https://github.com/haishanh/night-wolf.vim)             | This Theme                                                                 |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <img src="./img/haishanh.png" alt="Screenshot of haishanh theme" width="900" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1014" /> |
 
@@ -126,8 +110,9 @@ many more!
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## 🎇 Credits
-
-- [Sarah Drashner](https://github.com/sdras) first and foremost, for creating
+- [Oxfist](https://github.com/oxfist/night-owl.nvim) for creating the nvim theme.
+[previous credits]
+- [Sarah Drashner](https://github.com/sdras) for creating
   such a beautiful and artistic color scheme that has, personally, made so much
   more _pleasurable_ the exhilirating act of building software.
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
