@@ -1,1 +1,1 @@
-require("night-owl").setup({})
+require("night-wolf").setup({})

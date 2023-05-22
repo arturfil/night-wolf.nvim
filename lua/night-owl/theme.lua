@@ -1,5 +1,5 @@
 
-local c = require('night-owl.palette')
+local c = require('night-wolf.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

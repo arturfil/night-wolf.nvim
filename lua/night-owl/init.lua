@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('night-owl.theme')
+local theme = require('night-wolf.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'night-owl'
+  vim.g.colors_name = 'night-wolf'
 
   theme.set_highlights()
 end
