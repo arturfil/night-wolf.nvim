@@ -1,5 +1,5 @@
 set background=dark
-colorscheme night-owl
+colorscheme night-wolf
 
 function! IsHexColorLight(color) abort
   let l:raw_color = trim(a:color, '#')
