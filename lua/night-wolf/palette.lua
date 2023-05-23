@@ -69,6 +69,7 @@ local colors = {
   purple2 = "#7986e7",
   purple3 = "#5166F0",
   dark_purple = "#2E2D5E",
+  folder = "#769fc7",
   magenta = "#dc8cff",
   magenta2 = "#c789d6",
   magenta3 = "#d1aaff",
